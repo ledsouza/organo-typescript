@@ -12,8 +12,8 @@ const CampoTexto = ({
     placeholder,
     label,
     valor,
-    obrigatorio,
     aoAlterado,
+    obrigatorio = false,
 }: CampoTextoProps) => {
     const placeholderModificada = `${placeholder}...`;
 
