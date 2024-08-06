@@ -1,30 +1,29 @@
-![Integrando seu projeto React com APIs](thumbnail.png)
+# Organo - Typescript
 
-# Organo
+![Static Badge](https://img.shields.io/badge/Status-Finalizado-green)
 
-O Organo é aplicação desenvolvida no curso <a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript" target="_blank">React: desenvolvendo com JavaScript</a>. 
-Foi pensado e idealizado para ser o primeiro projeto em contato com o React.
+## Descrição
 
-<img src="screencapture.png" alt="Imagem do Organo" width="50%">
+Esta é uma versão aprimorada do projeto Organo, agora desenvolvida utilizando Typescript para uma melhor tipagem e robustez do código. O Organo é uma aplicação web que permite criar times e alocar pessoas nesses times de forma visual e intuitiva. Ideal para empresas que desejam ter uma visão clara da organização de seus colaboradores em diferentes times, como frontend, backend, design, marketing, entre outros.
 
+<img width="1675" alt="image" src="https://github.com/ledsouza/organo/assets/56280624/3495b016-c8a1-42fa-93d0-fb0c6da2f772">
 
-## 🔨 Funcionalidades do projeto
+## Tecnologias Utilizadas
 
-Você pode passear <a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript" target="_blank">no figma</a> para entender a arte conceitual do projeto.
+* React
+* **Typescript**
+* HTML
+* CSS
 
-## ✔️ Técnicas e tecnologias utilizadas
+## Descrição Detalhada
 
-Se liga nessa lista de tudo que usaremos nessa formação:
+Este projeto foi inicialmente desenvolvido como parte do curso de React da Alura, e agora foi atualizado para utilizar Typescript, proporcionando uma melhor experiência de desenvolvimento e maior confiabilidade ao código. O Organo oferece uma solução simples e eficaz para organizar os colaboradores em times, exibindo os membros de cada time através de cards com foto, nome e cargo.
 
-- `React`
-- `React Hooks`
-- `TypeScript`
+- Figma do Projeto: [Projeto React](https://www.figma.com/design/T6BLI1HfB81eYOiVgpqQz7/Projeto-Intro-ao-React?node-id=134-143&t=VQJvAIjyKpmAeELp-0)
 
-E muito mais!
+### Funcionalidades
 
-## 🛠️ Abrir e rodar o projeto
-
-Para abrir e rodar o projeto, execute `npm i` para instalar as dependências e `npm start` para inicar o projeto.
-
-Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
-
+* **Criação de times:** Permite criar diferentes times, como por exemplo, Time de Backend, Time de Frontend, Time de Data Science, etc.
+* **Adição de colaboradores:** Permite adicionar colaboradores aos times, preenchendo informações como nome, cargo e selecionando uma imagem.
+* **Cards personalizados:** Cada colaborador adicionado a um time é exibido em um card com sua foto, nome e cargo.
+* **Organização visual:** A interface do Organo organiza os times e seus respectivos membros de forma clara e intuitiva.
